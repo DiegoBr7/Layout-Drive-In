@@ -1,0 +1,483 @@
+/* ***************GERAL************** */
+html {
+  
+}
+
+
+*{
+ max-width: 1440px;
+margin: 0 auto;
+padding: 0;
+font-family: 'Noto Sans', sans-serif;
+
+}
+
+body{
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0;
+  font-family: 'Noto Sans', sans-serif;
+
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer; 
+}
+
+button {
+  cursor: pointer; 
+}
+
+aside img{
+  margin-top: 10rem;
+  width: 800px;
+  height: 700px;  
+  float: right;
+}
+
+header{
+  max-width: 1440px;
+  background-color: white;
+  display: flex;
+  overflow: hidden;
+  width: 100%;
+}
+
+
+/* ***************HEADER************ */
+
+
+#logo {
+  margin-top: 1.5625rem;
+}
+
+
+#button-Header{
+  
+  margin-left: 1.5rem;
+  margin-top: 2.2rem;
+  height: 5rem;
+  width: 42rem;
+  display: flex;
+  justify-content: space-around;
+}
+#button-Header > div > a{
+  font-size: 1.5rem;
+  color: gray;
+  border:0.1rem ;
+  border-radius: 0.5rem;
+  transition-duration: 2s;
+}
+#button-Header > div > a:hover{
+  background-color: aqua;
+  box-shadow: 0rem 0rem 0.5rem  rgb(7, 73, 73);
+  border-bottom: 0.1rem solid, rgb(7, 73, 73); 
+  transform: translate(0rem , -0.3125rem);
+  transition-duration: 1.5s;
+  padding: 0.2rem ;
+  color: white;
+}
+
+.login{
+  margin-top: 2.2rem;
+  margin-left: 10rem;
+  display: flex;
+  justify-content: space-between;
+  transition-duration: 2s;
+}
+
+
+.login > #button-login{
+  gap: 0.9rem;
+  height: 2rem;
+  width: 6rem;
+  font-size: 1.4rem;
+  font-weight: bolder;
+  border:0.1rem ;
+  border-bottom: 0.1rem ;
+  border-radius: 0.5rem;
+  transition-duration: 2.5s;
+}
+.login > #button-login a:hover{
+  background-color: aqua;
+  border-bottom: 0.1rem solid  rgb(22, 168, 168);
+  box-shadow: 0rem 0rem 0.5rem  rgb(7, 73, 73);
+  transform: translate(0rem , -0.3125rem);
+  padding: 0.2rem ;
+  transition-duration: 2.5s;
+  border:0.1rem ;
+  border-radius: 0.5rem;
+  color: white;
+}
+
+ #button-submit  {
+  font-size: 26px;
+  font-weight: bolder;
+  margin-left: 1rem;
+  height: 2.2rem;
+  width: 6rem;
+  border:0.1rem solid rgb(63, 63, 240);
+  border-radius: 0.5rem;
+  background-color: white;
+  color:rgb(63, 63, 240);
+  transition-duration: 2s;
+}
+
+#button-submit:hover{
+  background-color: aqua;
+  border-bottom: 0.1rem solid  rgb(22, 168, 168);
+  box-shadow: 0rem 0rem 0.5rem  rgb(7, 73, 73);
+  transform: translate(0rem , -0.3125rem);
+  transition-duration:2s;  
+  padding: 0.2rem ;
+  color: white;
+}
+
+/* **************TEXTO************ */
+aside{
+  display: flex;
+}
+
+.texto h1{
+  margin-bottom: 3.125rem;
+  font-size: 70px;
+  color: rgb(78, 17, 136);
+}
+.texto p{
+  font-size: 17px;
+  font-weight: bolder;
+  color: gray;
+}
+.texto{
+  margin-top: 12.5rem;
+}
+/* **************BOTAO-DEGRADE************* */
+.button-deg  {
+  background: linear-gradient(270deg, #0afff2, #00267c);
+  background-size: 300% 300%;
+
+  -webkit-animation: AnimationName 10s ease infinite;
+  -moz-animation: AnimationName 10s ease infinite;
+  animation: AnimationName 10s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+  0%{background-position:0% 53%}
+  50%{background-position:100% 48%}
+  100%{background-position:0% 53%}
+}
+@-moz-keyframes AnimationName {
+  0%{background-position:0% 53%}
+  50%{background-position:100% 48%}
+  100%{background-position:0% 53%}
+}
+@keyframes AnimationName {
+  0%{background-position:0% 53%}
+  50%{background-position:100% 48%}
+  100%{background-position:0% 53%}
+}
+.button-deg {
+  font-size: 26px;
+  display: flex;
+  width: 7rem;
+  height: 2.5rem;
+  border: none;
+   box-shadow: 0rem 0rem 0.5rem  rgb(7, 73, 73);
+  border-radius: 0.5rem;
+  float: left;
+  margin-top: 3rem;
+  transition-duration: 2s;
+  color: white;
+}
+.button-deg:hover{
+  background-color: aqua;
+  border-bottom: 0.1rem solid  rgb(22, 168, 168);
+  box-shadow: 0rem 0rem 0.5rem  rgb(7, 73, 73);
+  transform: translate(0rem , -0.3125rem);
+  padding: 0.5rem ;
+  width: 8rem;
+  height: 3rem;
+  transition-duration: 2.5s;
+  border:0.1rem ;
+  border-radius: 0.5rem;
+  color: black;
+}
+
+#hr > img {
+ width: 13rem;
+ height: 1.313rem;
+  margin-left: 27rem;
+}
+
+/* *************MAIN********** */
+
+main{
+  margin-top: 7rem;
+}
+
+main  h4{
+  margin-top: 3rem;
+  display: flex;
+  justify-content: center;
+  font-weight: bolder;
+  color: gray;
+}
+
+main  h2{
+  display: flex;
+  justify-content: center;
+  color: rgb(78, 17, 136);
+  font-size: 30px;
+  margin-top: 8rem;
+  margin-bottom: 4rem;
+}
+
+  .category  h2{
+  color: rgb(78, 17, 136);
+  font-size: 30px;
+  margin-top: 2rem;
+ display: flex;
+ justify-content: center;
+}
+
+main > .category{
+  display: grid;
+  grid-template-columns: 40px 40px 40px 40px;
+  gap: 17rem;
+}
+
+main > .category > #teste1 {
+  color: rgb(78, 17, 136);
+  font-size: 2rem;
+  margin-top: 2rem;
+ display: flex;
+ justify-content: center;
+}
+
+/* ***********MAIN/PART2********** */
+
+
+
+.main-t{
+  display: flex;
+}
+
+.main-t img{
+  width: 40rem;
+}
+#hr-t{
+  margin-top: 150px;
+}
+
+ .main-t #hr-t img{
+  width: 13rem;
+  height: 1.313rem;
+ }
+
+ .main-t #hr-t h3{
+  margin-top: 5rem;
+  width: 27rem;
+  font-size: 1rem;
+  font-weight: bolder;
+  color: gray;
+ }
+
+ .main-t #hr-t a{
+
+  border: none;
+  font-weight: bolder;
+  color:  #4f81eefa;
+  background-color: white;
+
+ }
+
+
+/* --------------MAIN PART3-------------- */
+main > .main-tr{
+  margin-left: 1rem;
+}
+
+main > .main-tr > img{
+float: right;
+position: relative;
+bottom: 19rem;
+width: 40rem;
+}
+
+main .main-tr .hr-tr > img{
+  margin-top: 3rem;
+  width: 13rem;
+  height: 1.313rem;
+ }
+ main > .main-tr > .hr-tr > h2{
+display: flex;
+justify-content:left;
+}
+
+.hr-tr a {
+  display:grid;
+  justify-content: center;
+  position: relative;
+  bottom: 1.6rem;
+  left: 5.1rem;
+  transition-duration: 1.5s;
+}
+ .hr-tr  a  img {
+width: 3rem;
+height: 0.2rem;
+}
+.hr-tr  a:hover{
+  transition-duration: 1.5s;
+  color: rgb(25, 225, 252);
+}
+.hr-tr h3{
+  font-weight: bolder;
+  color: gray;
+}
+.link{
+  transition-duration: 1.5s;
+  color: rgb(36, 131, 255);
+}
+
+.link:hover{
+  transition-duration: 1.5s;
+  color: rgb(78, 17, 136);
+}
+
+/* -------------MAIN/PART4--------------- */
+.img-fi2{
+  display: flex;
+  justify-content:flex-start;
+  width: 5rem;
+  height: 5rem;
+  gap: 2rem;
+ position: relative;
+ bottom: 20rem;
+}
+
+#store{
+height: 6.3rem;
+position: relative;
+bottom: 0.55rem;
+}
+
+.text-fi {
+
+  color: rgb(78, 17, 136);
+  font-size: 1.5rem;
+  position: relative;
+  left: 38rem;
+  bottom: 25rem;
+}
+#hrw{
+  position: relative;
+  left: 3rem;
+  bottom: 40rem;
+  width: 10rem;
+  height: 1.1rem;
+  background: linear-gradient(270deg, #ffffff, #000000);
+  background-size: 300% 300%;
+
+  -webkit-animation: AnimationName 10s ease infinite;
+  -moz-animation: AnimationName 10s ease infinite;
+  animation: AnimationName 10s ease infinite;
+}
+
+/* -----------------MAIN/PART6----------------------- */
+
+.main-sx{
+  display: flex;
+
+}
+
+.main-sx div h2{
+ position: relative;
+ bottom: 7.5rem;
+ left: 8rem;
+
+}
+#hrs img {
+position: relative;
+bottom: 8rem;
+left: 8rem;
+}
+
+
+/* -----------FOOTER---------- */
+footer{
+  max-width: 1440px;
+}
+
+li{
+  list-style: none;
+
+}
+.final{
+  margin-left: 20rem;
+ display: grid;
+ grid-template-columns: 100px 400px 400px; 
+ position: relative;
+ bottom: 30rem;
+ color: white;
+ gap: 1rem;
+}
+
+.fiinal #fn{
+  margin-left: 250px;
+}
+
+
+
+#fn-tr h2 {
+ margin-bottom: 1.5rem;
+}
+#fn-t h2 {
+ margin-bottom: 1.5rem;
+}
+
+#fn-tr li{
+  margin-bottom: 1rem;
+}
+#fn-t li{
+  margin-bottom: 1rem;
+}
+#fn li{
+  font-size: 1.1rem;
+  margin-bottom: 1.5rem;
+}
+#fn h3{
+  margin-bottom: 1.5rem;
+} 
+
+.final hr {
+  background-color: #000000;
+  
+}
+
+.hrFn{
+  margin-top: 1rem;
+  margin-left: 5rem;
+  color: white;
+  position: relative;
+  bottom: 27rem;
+
+}
+.hrFn hr{
+  width: 80%;
+}
+.hrFn p {
+  margin-top: 1.5rem;
+}
+.fotos img{
+  float: right;
+  width: 2rem;
+  height: 2rem;
+  position: relative;
+  bottom: 29.8rem;
+  right: 8.3rem;
+  margin-left: 0.8rem;
+}
+/* _________________________________ */
+
+
